@@ -5,9 +5,17 @@
 
 This is a small Sails Socket IO Wrapper to perform promised api calls throught sockets to an SailsJS REST service for AngularJS Framework.
 
+> Always use the version of `sails.io.js` that is compatible with your version of Sails.
+If you have an older install, use the copy that is included in the `assets/js/dependencies` folder of your Sails app.
+
 #### Installation
 - Load the [sails.io.js](https://github.com/balderdashy/sails.io.js) library
 - Include this library in your html main file.
+
+#### Using bower
+````
+$ bower install MambaJS-Socket-IO
+````
 
 #### Inject in the module in your app
 
