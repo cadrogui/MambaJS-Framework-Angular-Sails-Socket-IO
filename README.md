@@ -11,18 +11,18 @@ This is a small Sails Socket IO Wrapper to perform promised api calls throught s
 
 #### Inject in the module in your app
 
-`````
+```js
 (function () {
     angular.module('App', [
         'MambaJSSailsSocket'
     ])
 })();
-`````
+```
 
 #### Configuration
 In your app configure inject and setup like this:
 
-````
+```js
 (function () {
   angular
     .module('App')
@@ -34,11 +34,11 @@ In your app configure inject and setup like this:
     SocketIOProvider.config({ url: 'http://localhost:1337'});
   }
 })();
-`````
+```
 
 In your app run inject like this:
 
-`````
+```js
 (function () {
     angular
     .module('App')
@@ -51,12 +51,12 @@ In your app run inject like this:
     }
 
 })();
-`````
+```
 
 #### Usage in some controller
 
 
-`````
+```js
 (function () {
     angular
     .module('App')
@@ -77,4 +77,4 @@ In your app run inject like this:
          })
     }
 })();
-`````
+```
